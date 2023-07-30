@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style
+.css">
+  <title>Masjid Ar Rahmah</title>
+  <script>
+    $(function() {
+      $('#nav a').on('click', function(e) {
+        e.preventDefault();
+        var page = $(this).attr('href');
+        $('#content').load(page);
+      });
+    });
+    $(document).bind("contextmenu", function(e) {
+      return false;
+    });
+    </script>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+</head>
+<body>
+  <header>
+    <a href="/"><img src="logo.png" alt="Logo"></a>
+  </header>
+  <noscript>
+    <div class="padding-left-16">
+      <p>JavaScript is disabled! Why you want to do so?
+        Please enable JavaScript in your web browser!</p>
+    </div>
+    <style type="text/css">
+      #no-js {
+        display: none;
+      }
+    </style>
+  </noscript>
+  <div id="no-js">
+    <div id="nav" class="scrollmenu">
+      <a href="javascript:void(0)" class="active">BERANDA</a>
+      <a href="notice.html">JADWAL KAJIAN</a>
+      <a href="faculty.html">POSTER DAKWAH</a>
+      <a href="about.html">TENTANG</a>
+      <a href="contact.html">ALAMAT</a>
+    </div>
+    <div id="content">
+      <!-- Center Content Starts -->
+      <marquee direction="right">
+      <h1>
+        
+        <font color="magenta">
+          
+          
+          <p>السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</p>
+          
+          
+        </font>
+        
+        </marquee>
+      </h1>
+
+      
+      <div class="center-content">
+        <img src="/images/MASJID AR RAHMAH IMAGE.jpg" class="img-css" alt="Masjid Ar Rahmah">
+        <br>
+      <center>
+          <button onclick="window.location=
+          'https://youtube.com/@arrahmahsungaiandai' " style="background-color: red; color: white; height: 80px; width: 350px;">
+            <b>
+              YOUTUBE</b>
+          </button>
+        </center>
+        </br>
+        <!-- Gallery Starts -->
+        <h2>Foto-Foto</h2>
+        <div class="Gallery">
+
+          <div class="GalleryImg">
+            <img src="/images/SHOLAT BERJAMAAH.jpg" alt="photo" />
+          </div>
+
+          <div class="GalleryImg">
+            <img src="/images/JAMAAH TABLIGH.jpg" alt="photo" />
+          </div>
+
+          <div class="GalleryImg">
+            <img src="images/kopi.jpg" alt="photo" />
+          </div>
+
+          <div class="GalleryImg">
+            <img src="/images/SARAPAN JUM'AT PAGI.jpg" alt="photo" />
+          </div>
+        
+        <p class="right-side-link"><a href="home2.html">Lebih Banyak Lagi</a></p>
+        
+        <!-- Gallery Ends-->
+
+        <!-- Center Content Ends -->
+    </div>
+    <footer>
+      <p>&copy; 2023 Masjid Ar Rahmah<br>
+      </p>
+      <a style="color:white;" href="/home2.html">Beralih Ke Mode GREEN PURPLE</a>
+      <button onclick="myFunction()" style="background-color: blue; color: white; height: 50px; width: 250px;">
+        <b>
+          LIGHT OR DARK
+          
+          
+      (فاتح أو غامق)
+      
+          
+          </b>
+      </button>
+      
+      </button>
+    </footer>
+  </div>
+</body>
+</html>
